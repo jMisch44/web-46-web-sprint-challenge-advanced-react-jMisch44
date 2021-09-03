@@ -2,15 +2,6 @@
 import { useState } from "react";
 import { initialValue } from "../components/CheckoutForm";
 
-// const initialValue = {
-//   firstName: "",
-//   lastName: "",
-//   address: "",
-//   city: "",
-//   state: "",
-//   zip: "",
-// };
-
 const useForm = () => {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const [values, setValues] = useState(initialValue);
